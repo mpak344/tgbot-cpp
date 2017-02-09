@@ -3,7 +3,7 @@
 //
 
 #include "tgbot/EventHandler.h"
-
+#include <algorithm>
 namespace TgBot {
 
 void EventHandler::handleUpdate(const Update::Ptr update) const {
